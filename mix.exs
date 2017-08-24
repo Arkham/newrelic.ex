@@ -29,10 +29,10 @@ defmodule NewRelic.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:phoenix, "~> 1.2"},
-     {:ecto, ">= 1.1.0"},
+    [{:phoenix, "~> 1.3"},
+     {:ecto, "~> 2.1"},
      {:lhttpc, "~> 1.4"},
-     {:poison, "~> 2.2.0"},
+     {:poison, "~> 3.0"},
      {:ex_doc, ">= 0.0.0", only: :dev}]
   end
 
